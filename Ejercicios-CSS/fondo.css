@@ -1,0 +1,7 @@
+body{
+    background-color: #1a8bb8;
+    background-image: url("imagenes/fondo_mario.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
