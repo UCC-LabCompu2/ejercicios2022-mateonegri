@@ -6,6 +6,14 @@
  * @return Valor que retorna
  */
 
+/**
+ * Conversor de unidades de metros, pulgadas, pies y yardas
+ * @method cambiounidades
+ * @param {string} unidad id de los inputs de metros, pulgadas, pies o yardas
+ * @param {number} valor el valor de los inputs en metros, pulgadas, pies o yardas
+ * @return
+ */
+
 function cambiounidades(unidad, valor){
     if(isNaN(valor)){
         alert("Se ingreso un valor invalido en " + unidad);
