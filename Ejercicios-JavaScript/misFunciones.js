@@ -39,3 +39,17 @@ function cambiounidades(unidad, valor){
         document.lasUnidades.unid_metro.value = valor * 0.9144;
     }
 }
+
+function conversorGR(id) {
+    var grados, radianes;
+    if (id=== "grados") {
+        grados = document.getElementById("grados").value;
+        radianes = (grados*Math.PI)/180;
+    } else if (id === "radianes") {
+        radianes = document.getElementById("radianes").value;
+        grados = (radianes*180)/Math.PI;
+    }
+    document.getElementById("grados").value = grados;
+    document.getElementById("radianes").value = radianes;
+
+}
