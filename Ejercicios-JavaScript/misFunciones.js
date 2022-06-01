@@ -53,3 +53,11 @@ function conversorGR(id) {
     document.getElementById("radianes").value = radianes;
 
 }
+
+function mostrar_ocultar(valor_mo) {
+    if (valor_mo === "val_mostrar") {
+        document.getElementById ("div_mo").style.display = "block";
+    }else if (valor_mo === "val_ocultar") {
+        document.getElementById ("div_mo").style.display = "none";
+    }
+}
