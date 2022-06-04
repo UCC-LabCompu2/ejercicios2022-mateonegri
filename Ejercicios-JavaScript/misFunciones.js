@@ -42,7 +42,7 @@ function cambiounidades(unidad, valor){
 
 function conversorGR(id) {
     var grados, radianes;
-    if (id=== "grados") {
+    if (id === "grados") {
         grados = document.getElementById("grados").value;
         radianes = (grados*Math.PI)/180;
     } else if (id === "radianes") {
