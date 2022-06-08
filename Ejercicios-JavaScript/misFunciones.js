@@ -42,7 +42,7 @@ function cambiounidades(unidad, valor){
 
 function conversorGR(id) {
     var grados, radianes;
-    if (id=== "grados") {
+    if (id === "grados") {
         grados = document.getElementById("grados").value;
         radianes = (grados*Math.PI)/180;
     } else if (id === "radianes") {
@@ -52,4 +52,12 @@ function conversorGR(id) {
     document.getElementById("grados").value = grados;
     document.getElementById("radianes").value = radianes;
 
+}
+
+function mostrar_ocultar(valor_mo) {
+    if (valor_mo === "val_mostrar") {
+        document.getElementById ("div_mo").style.display = "block";
+    }else if (valor_mo === "val_ocultar") {
+        document.getElementById ("div_mo").style.display = "none";
+    }
 }
